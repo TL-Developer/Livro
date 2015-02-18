@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all-animation.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Livro Editora do Brasil S/A</title>
+    </head>
+    <body>
+    
+        <div class="orientation">
+            <h1>Gira seu device para melhor visualização</h1>
+            <img src="img/gireTela.png" alt="Gire a Tela do seu Device">
+        </div>
+        
+        <div id="containerFullLivro" class="780">
+
+        <!-- START CONTEUDO -->
+        <div class="container-fluid contentPages pagina6">
+
+            <!-- CONTEUDO LADO ESQUERDO DAS PÁGINAS -->
+            <div class="col-xs-6 contentPagesLeft">
+                <div class="container-fluid contentPage6 notMarginPadding">
+                    <div class="narracao play" id="pagina6"><img src="img/narracao.png" alt=""></div>
+                    <img src="img/page6/galo.png" alt="galo" class="galo">
+                    <img src="img/page6/pegada2.png" alt="Pegadas" class="pegada1 pegadas">
+                    <img src="img/page6/pegada1.png" alt="Pegadas" class="pegada2 pegadas">
+                    <img src="img/page6/pegada2.png" alt="Pegadas" class="pegada3 pegadas">
+                    <img src="img/page6/pegada1.png" alt="Pegadas" class="pegada4 pegadas">
+                    <img src="img/page6/pegada1.png" alt="Pegadas" class="pegada5 pegadas">
+
+                    <img src="img/page6/pg_left1.jpg" alt="" class="img-responsive backPage1" >
+                </div>
+            </div>
+
+            <!-- CONTEUDO LADO DIREITO DAS PÁGINAS -->
+            <div class="col-xs-6 contentPagesRight">
+                <div class="container-fluid contentPage6 notMarginPadding">
+                    <img src="img/page6/grades.png" alt="Grades" class="grades">
+                    <img src="img/page6/proverbio.png" alt="proverbio" class="proverbio">
+                    <img src="img/page6/character.png" alt="character" class="character">
+                    <img src="img/page6/pg_right1.jpg" alt="" class="img-responsive" >
+                </div>
+            </div>
+        </div>
+        <!-- END CONTEUDO -->
+
+
+        <!-- START MENU BOTTOM -->
+        <div class="footerNavMenu">
+            <ul class="nav nav-pills nav-justified">
+                <li class="anterior" data-url="page5.html">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <p>Anterior</p>
+                </li>
+                <li onclick="window.location.href='index.html'">
+                    <span class="glyphicon glyphicon-home"></span>
+                    <p>Home</p>
+                </li>
+                <li class="proximo" data-url="page7.html">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <p>Próximo</p>
+                </li> 
+            </ul>
+        </div>
+        <!-- END MENU BOTTOM -->
+        </div>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="js/howler.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/ios-zoom-bug-fix.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript">
+            livro.page6();
+        </script>
+    </body>
+</html>

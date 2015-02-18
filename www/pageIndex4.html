@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all-animation.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Livro Editora do Brasil S/A</title>
+    </head>
+    <body>
+        <div class="orientation">
+            <h1>Gira seu device para melhor visualização</h1>
+            <img src="img/gireTela.png" alt="Gire a Tela do seu Device">
+        </div>
+        
+        <div id="containerFullLivro" class="766">
+        <!-- START CONTEUDO -->
+        <div class="container-fluid contentPages paginaIndex3">
+
+            <!-- CONTEUDO LADO ESQUERDO DAS PÁGINAS -->
+            <div class="col-xs-6 contentPagesLeft">
+                <div class="container-fluid contentPageIndex2 notMarginPadding">
+                   
+                    <img src="img/pageIndex4/pg_left1.jpg" alt="No País do VOALÁ-PURQUAPÁ" class="img-responsive backPage1" >
+                </div>
+            </div>
+
+            <!-- CONTEUDO LADO DIREITO DAS PÁGINAS -->
+            <div class="col-xs-6 contentPagesRight">
+                <div class="container-fluid contentPageIndex2 notMarginPadding">
+                    <div class="narracao play" id="paginaIndex3" style="position: absolute;top: 28%;left:-43%%;z-index: 10;cursor: pointer;width: 6%;display: none;"><img src="img/narracao.png" style="width: 100%;" alt=""></div>
+                    <img src="img/pageIndex4/pg_right1.jpg" alt="BLA BLA BLA" class="img-responsive" >
+                </div>
+            </div>
+        </div>
+        <!-- END CONTEUDO -->
+
+        <!-- START MENU BOTTOM -->
+        <div class="footerNavMenu">
+            <ul class="nav nav-pills nav-justified">
+                <li class="anterior" data-url="pageIndex3.html">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <p>Anterior</p>
+                </li>
+                <li onclick="window.location.href='index.html'">
+                    <span class="glyphicon glyphicon-home"></span>
+                    <p>Home</p>
+                </li>
+                <li class="proximo" data-url="page1.html">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <p>Próximo</p>
+                </li>
+            </ul>
+        </div>
+        <!-- END MENU BOTTOM -->
+        </div>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="js/howler.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript">
+            livro.pageIndex4();
+        </script>
+    </body>
+</html>
